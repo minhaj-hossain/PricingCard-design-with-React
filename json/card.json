@@ -1,0 +1,130 @@
+{
+    "pricingCards": [
+        {
+            "id": 1,
+            "name": "Basic",
+            "price": 29,
+            "billingPeriod": "monthly",
+            "currency": "USD",
+            "description": "Perfect for individuals and small projects",
+            "features": [
+                {
+                    "name": "5 Projects",
+                    "included": true
+                },
+                {
+                    "name": "10GB Storage",
+                    "included": true
+                },
+                {
+                    "name": "Basic Support",
+                    "included": true
+                },
+                {
+                    "name": "API Access",
+                    "included": false
+                },
+                {
+                    "name": "Advanced Analytics",
+                    "included": false
+                },
+                {
+                    "name": "Custom Domain",
+                    "included": false
+                }
+            ],
+            "buttonText": "Get Started",
+            "popular": false,
+            "color": "#4F46E5",
+            "discount": null
+        },
+        {
+            "id": 2,
+            "name": "Pro",
+            "price": 79,
+            "billingPeriod": "monthly",
+            "currency": "USD",
+            "description": "Best for growing businesses and teams",
+            "features": [
+                {
+                    "name": "Unlimited Projects",
+                    "included": true
+                },
+                {
+                    "name": "100GB Storage",
+                    "included": true
+                },
+                {
+                    "name": "Priority Support",
+                    "included": true
+                },
+                {
+                    "name": "Full API Access",
+                    "included": true
+                },
+                {
+                    "name": "Advanced Analytics",
+                    "included": true
+                },
+                {
+                    "name": "Custom Domain",
+                    "included": true
+                }
+            ],
+            "buttonText": "Start Free Trial",
+            "popular": true,
+            "color": "#10B981",
+            "discount": {
+                "annual": 20,
+                "description": "Save 20% with annual billing"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Enterprise",
+            "price": 199,
+            "billingPeriod": "monthly",
+            "currency": "USD",
+            "description": "For large organizations with advanced needs",
+            "features": [
+                {
+                    "name": "Unlimited Projects",
+                    "included": true
+                },
+                {
+                    "name": "Unlimited Storage",
+                    "included": true
+                },
+                {
+                    "name": "24/7 Dedicated Support",
+                    "included": true
+                },
+                {
+                    "name": "Full API Access",
+                    "included": true
+                },
+                {
+                    "name": "Advanced Analytics + AI",
+                    "included": true
+                },
+                {
+                    "name": "Multiple Custom Domains",
+                    "included": true
+                }
+            ],
+            "buttonText": "Contact Sales",
+            "popular": false,
+            "color": "#F59E0B",
+            "discount": {
+                "annual": 15,
+                "description": "Save 15% with annual billing"
+            }
+        }
+    ],
+    "settings": {
+        "currencySymbol": "$",
+        "showAnnualToggle": true,
+        "annualMultiplier": 10,
+        "defaultBilling": "monthly"
+    }
+}
