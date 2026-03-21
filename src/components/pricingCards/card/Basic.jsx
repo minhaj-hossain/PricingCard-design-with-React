@@ -1,9 +1,8 @@
 import React from 'react';
-import Enterprise from './Enterprise';
 
 const Basic = ({ data }) => {
 
-    const { name, price, description, currency, color, buttonText, billingPeriod, features } = data;
+    const { name, price, description, color, buttonText, billingPeriod, features } = data;
 
     console.log(color)
 

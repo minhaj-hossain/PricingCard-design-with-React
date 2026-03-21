@@ -1,15 +1,10 @@
 import React, { use } from "react";
 import Basic from './card/Basic'
-import Enterprise from "./card/Enterprise";
-import Pro from "./card/Pro";
 
 export default function Pricing({ pricingData }) {
 
     const data = use(pricingData);
-
-    const { pricingCards, settings } = data;
-
-    // console.log(pricingCards, settings)
+    const { pricingCards} = data;
 
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col items-center py-16 px-4">
@@ -22,12 +17,8 @@ export default function Pricing({ pricingData }) {
 
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl w-full">
 
-
-
-                {/* Basic */}
-
                 {
-                    pricingCards.map((elem, index) => {
+                    pricingCards.map((elem) => {
                         return (
                             <>
                                 {/* {basic} */}
@@ -39,19 +30,10 @@ export default function Pricing({ pricingData }) {
                                 {/* {pro } */}
                                 {elem.name === 'Enterprise' && <Basic key={elem.id} data={elem} />}
 
-
                             </>
                         )
                     })
                 }
-
-
-                {/* Pro */}
-
-
-                {/* Enterprise */}
-
-
             </div>
         </div>
     );
