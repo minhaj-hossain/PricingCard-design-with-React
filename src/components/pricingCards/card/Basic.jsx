@@ -9,9 +9,9 @@ const Basic = ({ data }) => {
 
     return (
         <div>
-            <div className="rounded-2xl shadow-lg p-8 bg-white border hover:scale-105 transition">
+            <div className="relative rounded-2xl shadow-lg p-8 bg-white border hover:scale-105 transition">
 
-                {name.toLowerCase() == 'pro' ? <span className=" bg-green-500 text-white text-xs px-3 py-1 ml-[50%] hover:opacity-90 rounded-full cursor-pointer">
+                {name.toLowerCase() == 'pro' ? <span className=" bg-green-500 absolute top-4 right-6 text-white text-xs px-3 py-1  hover:opacity-90 rounded-full cursor-pointer">
                     Most Popular
                 </span> : null}
 

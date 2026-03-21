@@ -4,7 +4,7 @@ import Basic from './card/Basic'
 export default function Pricing({ pricingData }) {
 
     const data = use(pricingData);
-    const { pricingCards} = data;
+    const { pricingCards } = data;
 
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col items-center py-16 px-4">
@@ -18,21 +18,25 @@ export default function Pricing({ pricingData }) {
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl w-full">
 
                 {
-                    pricingCards.map((elem) => {
-                        return (
-                            <>
-                                {/* {basic} */}
-                                {elem.name === 'Basic' && <Basic key={elem.id} data={elem} />}
+                    pricingCards.map((elem) => <Basic key={elem.id} data={elem} />
 
-                                {/* {pro } */}
-                                {elem.name === 'Pro' && <Basic key={elem.id} data={elem} />}
 
-                                {/* {pro } */}
-                                {elem.name === 'Enterprise' && <Basic key={elem.id} data={elem} />}
 
-                            </>
-                        )
-                    })
+
+                        // return (
+                        //     <>
+                        //         {/* {basic} */}
+                        //         {elem.name === 'Basic' && <Basic key={elem.id} data={elem} />}
+
+                        //         {/* {pro } */}
+                        //         {elem.name === 'Pro' && <Basic key={elem.id} data={elem} />}
+
+                        //         {/* {pro } */}
+                        //         {elem.name === 'Enterprise' && <Basic key={elem.id} data={elem} />}
+
+                        //     </>
+                        // )
+                    )
                 }
             </div>
         </div>
