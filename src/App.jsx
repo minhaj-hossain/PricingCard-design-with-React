@@ -3,7 +3,7 @@ import Nav from './components/Nav'
 import Pricing from './components/pricingCards/Pricing'
 import { Suspense } from 'react'
 
-const pricingData = fetch('../json/card.json').then(res => res.json())
+const pricingData = fetch('./../json/card.json').then(res => res.json())
 
 
 function App() {

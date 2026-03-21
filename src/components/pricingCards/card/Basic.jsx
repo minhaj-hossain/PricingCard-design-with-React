@@ -2,9 +2,9 @@ import React from 'react';
 
 const Basic = ({ data }) => {
 
-    const { name, price, description, color, buttonText, billingPeriod, features } = data;
+    const { name, price, description, buttonText, billingPeriod, features } = data;
 
-    console.log(color)
+    // console.log(color)
 
 
     return (
