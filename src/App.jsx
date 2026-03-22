@@ -13,7 +13,11 @@ function App() {
     <>
       <Nav />
 
-      <Suspense fallback={<span className="loading loading-spinner loading-lg"></span>}>
+      <Suspense fallback={
+        <div className='w-11/12 mx-auto flex justify-center'>
+          <span className="loading loading-spinner loading-lg"></span>
+        </div>
+      }>
 
         <Pricing pricingData={pricingData} />
 

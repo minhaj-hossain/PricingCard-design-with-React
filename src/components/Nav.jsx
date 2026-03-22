@@ -15,7 +15,7 @@ const Nav = () => {
 
     return (
         <>
-            
+
             <div className='navbar bg-base-100 shadow-lg'>
                 {menu ? <ul
                     className="menu menu-sm dropdown-content absolute top-15
@@ -34,7 +34,7 @@ const Nav = () => {
 
 
                     </div>
-                    <a href="#" className="btn btn-ghost text-xl">Hi there!</a>
+                    <a href="#" className="btn btn-ghost text-xl">HeyTech</a>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
@@ -47,8 +47,8 @@ const Nav = () => {
                             <details>
                                 <summary>About Us</summary>
                                 <ul className="p-2 bg-base-100 w-40 z-1">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><a>Submenu</a></li>
+                                    <li><a>Submenu</a></li>
                                 </ul>
                             </details>
 
