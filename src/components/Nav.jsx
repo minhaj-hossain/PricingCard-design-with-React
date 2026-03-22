@@ -34,7 +34,7 @@ const Nav = () => {
 
 
                     </div>
-                    <a href="#" className="btn btn-ghost text-xl">HeyTech</a>
+                    <a href="#" className="btn btn-ghost rounded-2xl text-xl">HeyTech</a>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
@@ -61,7 +61,7 @@ const Nav = () => {
                 </div>
 
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="btn rounded-2xl">Button</a>
                 </div>
 
             </div>
