@@ -4,8 +4,6 @@ const Basic = ({ data }) => {
 
     const { name, price, description, buttonText, billingPeriod, features } = data;
 
-    // console.log(color)
-
 
     return (
         <div>

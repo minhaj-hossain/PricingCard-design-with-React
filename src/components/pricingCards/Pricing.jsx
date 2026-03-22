@@ -6,6 +6,8 @@ export default function Pricing({ pricingData }) {
     const data = use(pricingData);
     const { pricingCards } = data;
 
+    console.log(pricingCards)
+
     return (
         <div className="min-h-screen bg-gray-50 flex flex-col items-center py-16 px-4">
             <h1 className="text-4xl font-bold mb-4 text-gray-800">
